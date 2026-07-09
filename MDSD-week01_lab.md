@@ -662,7 +662,7 @@ Doctor summary (to see all details, run flutter doctor -v):
       • Build Tools 34.0.0
 [✓] Chrome - develop for the web
 [!] Android Studio (not installed)   ← [!] ปกติ ไม่ต้องแก้
-[✓] VS Code (version x.x.x)
+[✗] VS Code (version x.x.x)
       • Flutter extension version x.x
 [✓] Network resources
 
@@ -1219,7 +1219,7 @@ class ProfilePage extends StatelessWidget {
 ```
 
 **TODO สำหรับนักศึกษา:**
-- [ ] เปลี่ยนชื่อและรหัสนักศึกษาให้เป็นของตัวเอง
+- [✅] เปลี่ยนชื่อและรหัสนักศึกษาให้เป็นของตัวเอง
 - [ ] เปลี่ยนข้อมูลในแถวข้อมูลให้เป็นของตัวเอง
 - [ ] เพิ่ม Row ข้อมูลเพิ่มเติมอีก 2 แถว
 - [ ] ลองเปลี่ยนสี Theme จาก `Colors.teal` เป็นสีอื่น
