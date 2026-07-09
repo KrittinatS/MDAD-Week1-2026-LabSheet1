@@ -1016,7 +1016,40 @@ class _MyHomePageState extends State<MyHomePage> {
 
 > 📝 **แบบฝึกหัด:** วาด Widget Tree ของโค้ดนี้ลงในใบงาน
 
----
+โค้ดเริ่มต้นนี้มีส่วนสำคัญดังนี้:
+
+import 'package:flutter/material.dart';
+
+นำเข้า Flutter Material UI ซึ่งเป็นชุด widget สำหรับสร้างหน้าตาแอป
+void main()
+
+จุดเริ่มต้นของแอปพลิเคชัน
+เรียก runApp() เพื่อรัน widget หลัก
+class MyApp extends StatelessWidget
+
+เป็น widget หลักของแอป
+StatelessWidget หมายถึง widget นี้ไม่มีสถานะเปลี่ยนแปลงเอง
+ใช้สร้าง MaterialApp ซึ่งเป็นโครงสร้างพื้นฐานของแอป
+home: const HomePage()
+
+บอกว่าเมื่อเปิดแอป จะให้แสดงหน้า HomePage
+class HomePage extends StatelessWidget
+
+เป็นหน้าแสดงผลหลัก
+build() จะคืน Scaffold เป็นโครงสร้างหน้าจอหลัก
+Scaffold
+
+เป็นโครงสร้างพื้นฐานของหน้าใน Flutter
+ประกอบด้วย AppBar และ body
+AppBar
+
+แถบหัวข้อด้านบนของหน้า
+Center
+
+จัดวาง widget ให้อยู่ตรงกลาง
+Text
+
+แสดงข้อความบนหน้าจอ
 
 ### ขั้นตอนที่ 4: รันแอปพลิเคชันครั้งแรก
 
